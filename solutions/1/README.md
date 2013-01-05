@@ -10,11 +10,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 I've completely generalized this solution to find the sum of any number of multiples below any number. So you could do:
 
-```
+```javascript
 problem1([3, 5], 999);
 // Or
 problem1([3, 5, 7, 11], 99999999);
-```javascript
+```
 
 Using summations in this problem makes it pretty darn easy. The formula for a summation is:
 
