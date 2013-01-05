@@ -23,7 +23,6 @@ module.exports = function(max, nums){
 
     // Subtract the overlaps
     for (var n = i - 1; n >= 0; n--){
-      console.log("subtract sum of %s up to %s", nums[i] * nums[n], parseInt(max / (nums[i] * nums[n])));
       total -= (nums[i] * nums[n]) * sum(parseInt(max / (nums[i] * nums[n])));
     }
   }
