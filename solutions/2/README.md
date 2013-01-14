@@ -39,7 +39,7 @@ module.exports = function(max){
 
 The real interesting part is that while condition. I think most people would check the value of the current fibonacci number to ensure they're not exceeding 4 million. At that point, they would stop. I check the total because the total represents the nth fibonacci number since ```fib(n) = fib(n - 1) + fib(n - 2)```. That's the cool thing about this problem that I think the site creators want you to realize.
 
-The sum of all fibonacci numbers up to fib(n) is EQUAL TO just plain ol' fib(n). Furthermore, let's examine this sequence:
+Let's examine this sequence:
 
 ```
 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
